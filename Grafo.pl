@@ -9,6 +9,8 @@ tieneArista(X):-conexion(X,_,_).
 llegar(Inicio,Destino,Int,Costo):-
     conexion(Inicio,Int,C1),conexion(Int,Destino,C2),
     Costo is C1+C2.
+camino(X,Y):-conexion(X,Y,_).
+camino(X,Y):-conexion(X,Z,_),camino(Z,Y).
 
 
 
