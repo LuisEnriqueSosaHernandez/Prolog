@@ -6,4 +6,7 @@ progenitor(juan,[ben,pepe,josue,jessica,pavel,keith,kyle]).
 %buscar(Hijo,[Hijo|L]) :-!,true.
 %buscar(Hijo,[C|L]):-buscar(Hijo,L).
 
+persona(nombre,apellido,fechaNac(dia,mes,anno)).
+persona(pedro,lopez,fechaNac(22,07,1989),900811232556).
+
 padreDe(Padre,Hijo):-  progenitor(Padre,Hijos),member(Hijo,Hijos).
