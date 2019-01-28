@@ -21,7 +21,7 @@ muestraChapas([C|ListaChapas]):-write(C),nl,muestraChapas(ListaChapas).
 % cuantos km puede recorrer dicho carro
 
 cantKm(Chapa,Combustible,CantKm):-
-    carro(Chapa,Consumo,_,_),CantKm is Consumo*Combustible
+    carro(Chapa,Consumo,_,_),CantKm is Consumo*Combustible.
 
 
 
