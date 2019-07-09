@@ -1,4 +1,4 @@
-%carro(chapa,consumo_por_km_recorrido,tipo,listado_choferes)
+carro(chapa,consumo_por_km_recorrido,tipo,listado_choferes)
 carro(hav379,0.2,petroleo,[chofer(kyle,5,17),chofer(josh,12,60),chofer(juan,3,8)]).
 carro(hav382,0.5,petroleo,[chofer(kyle,5,17),chofer(josh,12,60),chofer(juan,3,8)]).
 carro(hav383,0.4,petroleo,[chofer(kyle,5,17),chofer(josh,12,60),chofer(juan,3,8)]).
